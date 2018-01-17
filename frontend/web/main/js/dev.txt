@@ -1,0 +1,201 @@
+var arra = [];
+var smayl = ['Lavner','Lavna','Siruna','Siruner']
+var idex = 0;
+$('.ust_tx a.ust_a').each(function () {
+    var a = $(this).attr('href').split("/");
+    arra.push(a[2])
+})
+setInterval(function () {
+    var id = arra.splice(0, 1);
+    $('.chats_i a.chats_i_ovr:first').attr('href', '/messages/' + id[0])
+    $('.chats_i a.chats_i_ovr:first').trigger('click')
+    setTimeout(function () {
+        $('.itx_w div.add-caret').html(smayl[idex])
+        $('.comments_add-controls .button-pro').trigger('click')
+    }, 8000)
+    if(idex == 3){
+        idex = 0;
+    }
+    idex++
+}, 10000)
+console.log('Goo')
+
+ffmpeg -i /home/miqayel/Desktop/test.mp4 -acodec copy -f segment -vcodec copy -reset_timestamps 1 -map 0 /home/miqayel/Desktop/out4454.mp4
+ffmpeg -i /home/miqayel/Desktop/test.mp4 -acodec copy -f segment -vcodec copy -reset_timestamps 1 -map 0 /home/miqayel/Desktop/out4454.mp4
+ffmpeg -i /home/miqayel/Desktop/test.mp4 -ss 00:41:00.000 -t 00:00:10.000  -c:v copy -c:a copy  /home/miqayel/Desktop/out444.mp4
+ffmpeg -i /home/miqayel/Desktop/test.mp4 -ss 00:41:00.000 -endpos  00:00:10.000  -oac pcm -ovc copy video.mp4 -o  /home/miqayel/Desktop/out444.mp4
+
+mencoder -ss  00:41:00 -endpos 00:00:10 -oac copy -ovc copy /home/miqayel/Desktop/test.mp4 -o /home/miqayel/Desktop/out4mm44.mp4
+
+avconv -ss 00:41:00  -i /home/miqayel/Desktop/test.mp4 -t 13 -codec copy /home/miqayel/Desktop/out4mm8844.mp4
+
+
+
+ffmpeg -i video.mp4 -ss 00:17:26 -t 00:00:08 -c copy video-test-1.mp4
+
+
+ffmpeg -ss 00:32:00  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_0.mp4
+ffmpeg -ss 00:32:01  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_1.mp4
+ffmpeg -ss 00:32:02  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_2.mp4
+ffmpeg -ss 00:32:03  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_3.mp4
+ffmpeg -ss 00:32:04  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_4.mp4
+ffmpeg -ss 00:32:05  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_5.mp4
+ffmpeg -ss 00:32:06  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_6.mp4
+ffmpeg -ss 00:32:07  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_7.mp4
+ffmpeg -ss 00:32:08  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_8.mp4
+ffmpeg -ss 00:32:08  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_8.mp4
+ffmpeg -ss 00:32:09  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_9.mp4
+ffmpeg -ss 00:32:09  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_9.mp4
+ffmpeg -ss 00:32:10  -i /home/miqayel/Desktop/test.mp4 -t 10  -keyint_min 5 -g 100 -c copy /home/miqayel/Desktop/v_10.mp4
+
+
+
+ffmpeg -ss 01:32:00  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_00.mp4
+ffmpeg -ss 01:32:01  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_01.mp4
+ffmpeg -ss 01:32:02  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_02.mp4
+ffmpeg -ss 01:32:03  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_03.mp4
+ffmpeg -ss 01:32:04  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_04.mp4
+ffmpeg -ss 01:32:05  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_05.mp4
+ffmpeg -ss 01:32:06  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_06.mp4
+ffmpeg -ss 01:32:07  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_07.mp4
+ffmpeg -ss 01:32:08  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_08.mp4
+ffmpeg -ss 01:32:09  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_09.mp4
+ffmpeg -ss 01:32:10  -i /home/miqayel/Desktop/test.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/v_10.mp4
+
+
+ffmpeg -ss 00:00:02  -i /home/miqayel/Desktop/v_05.mp4  -t 5 -avoid_negative_ts 1 -c copy /home/miqayel/Desktop/v_10kt.mp4
+
+
+
+
+ffmpeg -ss 01:32:00  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_00.mp4
+ffmpeg -ss 01:32:01  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_01.mp4
+ffmpeg -ss 01:32:02  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_02.mp4
+ffmpeg -ss 01:32:03  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_03.mp4
+ffmpeg -ss 01:32:04  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_04.mp4
+ffmpeg -ss 01:32:05  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_05.mp4
+ffmpeg -ss 01:32:06  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_06.mp4
+ffmpeg -ss 01:32:07  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_07.mp4
+ffmpeg -ss 01:32:08  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_08.mp4
+ffmpeg -ss 01:32:09  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_09.mp4
+ffmpeg -ss 01:32:10  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4  -t 00:00:13 -c copy /home/miqayel/Desktop/vs_10.mp4
+
+
+
+
+
+
+
+
+ffmpeg -ss 01:32:08 -t 00:00:08 -i /home/miqayel/Desktop/test.mp4 -avoid_negative_ts 1 -c copy -ss 00:00:00 -t 00:00:08 /home/miqayel/Desktop/v_10.mp4
+
+ffmpeg -ss 01:32:00  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_0.mp4
+ffmpeg -ss 01:32:01  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_1.mp4
+ffmpeg -ss 01:32:02  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_2.mp4
+ffmpeg -ss 01:32:03  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_3.mp4
+ffmpeg -ss 01:32:04  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_4.mp4
+ffmpeg -ss 01:32:05  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_5.mp4
+ffmpeg -ss 01:32:06  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_6.mp4
+ffmpeg -ss 01:32:07  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_7.mp4
+ffmpeg -ss 01:32:08  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_8.mp4
+ffmpeg -ss 01:32:09  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_9.mp4
+ffmpeg -ss 01:32:10  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy /home/miqayel/Desktop/sv_10.mp4
+
+
+
+
+ffmpeg -ss 01:32:10  -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:13 -c copy -cmp +chroma  /home/miqayel/Desktop/sv_10.mp4
+
+
+
+ffmpeg -ss 00:17:26 -t 00:00:08 -i /home/miqayel/Desktop/test.mp4 -acodec copy -vcodec copy /home/miqayel/Desktop/sv_888.mp4
+
+ffmpeg -ss 00:17:23 -t 00:00:08 -i /home/miqayel/Desktop/test.mp4 -avoid_negative_ts 1 -acodec copy -vcodec copy /home/miqayel/Desktop/sv_88444833.mp4
+avconv -ss 00:17:26 -t 00:00:08 -i /home/miqayel/Desktop/test.mp4 -avoid_negative_ts 1 -acodec copy -vcodec copy /home/miqayel/Desktop/sv_884448.mp4
+
+avconv -i /home/miqayel/Desktop/test.mp4 -c:a copy -c:v copy -ss 00:44:56 -t 8 /home/miqayel/Desktop/v_148.mp4
+
+ffmpeg -ss 00:00:43 -i /home/miqayel/Desktop/test.mp4 -t 00:00:10 -c copy /home/miqayel/Desktop/v_10.mp4
+
+
+"ffmpeg -ss 00:00:43 -i http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4 -t 00:00:10 -c copy /home/www/dev-mycoach/www/frontend/web/videos/data/6c70900d3a3877716af05ef4536aac20.mp4"
+
+
+
+http://cdn.mycoachfootball.com/videos/a97cbd1d-024b-4f3d-bc5a-6c4d0901ae9a.mp4
+
+
+
+avconv  -ss 00:44:51 -i /home/miqayel/Desktop/test.mp4  -t 00:00:10 -c copy /home/miqayel/Desktop/v_11.mp4
+
+avconv -i /home/miqayel/Desktop/test.mp4 -c:a copy -c:v copy -ss 00:44:52 -t 10 /home/miqayel/Desktop/v_12.mp4
+
+avconv -i /home/miqayel/Desktop/test.mp4 -c:a copy -c:v copy -ss 00:44:54 -t 10 /home/miqayel/Desktop/v_13.mp4
+
+avconv -i /home/miqayel/Desktop/test.mp4 -c:a copy -c:v copy -ss 00:44:56 -t 10 /home/miqayel/Desktop/v_14.mp4
+
+
+
+ffmpeg  -i
+INPUT
+        -r 25
+        -b 1000k
+        –s 640×360
+        -c:v libx264
+        -flags +loop
+        -me_method hex
+        -g 250
+        -qcomp 0.6
+        -qmin 10
+        -qmax 51
+        -qdiff 4
+        -bf 3
+        -b_strategy 1
+        -i_qfactor 0.71
+        -cmp +chroma
+        -subq 8
+        -me_range 16
+        -coder 1
+        -sc_threshold 40
+        -flags2 +bpyramid+wpred+mixed_refs+dct8x8+fastpskip
+        -keyint_min 25
+        -refs 3
+        -trellis 1
+        –level 30
+        -directpred 1
+        -partitions
+        -parti8x8-parti4x4-partp8x8-partp4x4-partb8x8
+        -threads 0
+        -acodec libfaac
+        -ar 44100
+        -ab 96k
+        -y
+OUTPUT.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

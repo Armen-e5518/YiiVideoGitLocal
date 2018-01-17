@@ -1,0 +1,494 @@
+.load-b{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.43);
+    z-index: 9999;
+}
+.img-load{
+    width: 320px;
+    height: 240px;
+    background: url(ion/ajax-loader-big-white.gif);
+    background-size: contain;
+    position: absolute;
+    left: 44%;
+    top: 40%;
+    margin-right: 25px;
+}
+
+.js-irs-1 .irs-slider {
+    top: -23px !important;
+    z-index: 0;
+    background-color: #79ff00;
+    /*border-radius: 50%;*/
+    width: 5px;
+    border: 2px solid;
+    border-color: #79ff00;
+}
+
+.js-irs-1 .irs-single {
+    top: -40px;
+}
+
+.js-irs-0 .irs-to, .js-irs-0 .irs-from {
+    top: 40px;
+}
+
+.js-irs-0 .from, .js-irs-0 .to {
+    width: 6px;
+    border: 4px solid #838383;
+    cursor: pointer;
+}
+
+.js-irs-0 .from:hover {
+    border-color: #440000;
+}
+
+.js-irs-0 .to:hover {
+    border-color: #440000;
+}
+
+.js-irs-1 .irs-grid,
+.js-irs-1 .irs-bar,
+.js-irs-1 .irs-bar-edge,
+.js-irs-1 .irs-shadow {
+    display: none !important;
+}
+
+.js-irs-1 .irs-line,
+.js-irs-1 .irs-min,
+.js-irs-1 .irs-max,
+.js-irs-1 .irs-from,
+.js-irs-1 .irs-to,
+.js-irs-1 .irs-bar,
+.js-irs-1 .irs-grid {
+    display: none !important;
+}
+
+/*body {*/
+/*background-attachment: fixed;*/
+/*background-image: url("../images/backgraunt-index.jpg");*/
+/*background-repeat: no-repeat;*/
+/*background-size: initial;*/
+/*}*/
+/*.content {*/
+/*background: rgba(0, 0, 0, 0.71);*/
+/*}*/
+/*.heder-t img, .heder-t span{*/
+/*display: inline-block;*/
+/*}*/
+/*.title {*/
+/*padding: 0px;*/
+/*color: white;*/
+/*margin-left: 87px;*/
+/*margin-top: 22px;*/
+/*}*/
+.slider-v {
+    /*margin-left: 85px;*/
+}
+
+.players span, .actions span, .results span {
+    color: white;
+}
+
+.player-list, .actions-list {
+    width: 100%;
+}
+
+.heder-t a {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.heder-t div {
+    padding: 0px !important;
+}
+
+/*#match{*/
+#match {
+    display: none;
+}
+
+.act {
+    color: #7bdb39 !important;
+}
+
+.results-list {
+    float: right;
+}
+
+.results {
+    margin-top: 5px;
+}
+
+.cards-yellow, .cards-red, .cards input {
+    float: left;
+}
+
+.cards-yellow span {
+    margin-left: 5px;
+    height: 5px;
+    border: 7px solid yellow;
+}
+
+.cards-red span {
+    margin-left: 5px;
+    height: 5px;
+    border: 7px solid red;
+}
+
+.cards {
+    overflow: hidden;
+    height: 22px;
+    margin-top: 10px;
+    float: right;
+    /*margin-right: -50px;*/
+}
+
+.results select {
+    /*margin-right: -30px;*/
+}
+
+.cards div {
+    width: 35px;
+}
+
+.fields-full {
+    position: relative;
+    background-image: url(../images/fields/field-full.png);
+    height: 141px;
+    width: 208px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+.fields-full span, .field-part span, .visible span {
+    color: white;
+}
+
+.field-text-top {
+    position: absolute;
+    left: 54px;
+    top: -20px;
+}
+
+.field-text-right {
+    position: absolute;
+    writing-mode: tb-rl;
+    right: -19px;
+    top: 46px;
+}
+
+.field-text-left {
+    position: absolute;
+    left: -26px;
+    top: 59px;
+    transform: rotate(-90deg);
+}
+
+.field-part {
+    margin-top: 20px;
+    position: relative;
+    background-image: url(../images/fields/field-part.png);
+    height: 141px;
+    width: 208px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+.field-part .text-left {
+    position: absolute;
+    top: -21px;
+}
+
+.field-part .text-center {
+    position: absolute;
+    top: -21px;
+    left: 79px;
+}
+
+.field-part .text-right {
+    position: absolute;
+    top: -21px;
+    right: 24px;
+}
+
+.general-buttons button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.general-buttons {
+    margin-top: 10px;
+}
+
+.event-column-advanced {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.event-column-advanced tr {
+    cursor: pointer;
+    background: #3f3f3f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3f3f3f, #a6a6a6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3f3f3f, #a6a6a6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3f3f3f, #a6a6a6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3f3f3f, #a6a6a6); /* Standard syntax */
+    color: white;
+    height: 26px;
+    font-weight: 100;
+}
+.event-column-advanced tr.end-m {
+    cursor: pointer;
+    background: #3f3f3f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#826525, #c19837); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#826525, #c19837); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#826525, #c19837); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#826525, #c19837); /* Standard syntax */
+    color: white;
+    height: 26px;
+    font-weight: 100;
+}
+.event-active {
+    cursor: pointer;
+    background: #2e7a1e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#256019, #48cb2a)!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#256019, #48cb2a)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#256019, #48cb2a)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#256019, #48cb2a)!important; /* Standard syntax */
+    color: white;
+    height: 26px;
+    font-weight: 100;
+}
+.event-column-advanced th {
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.event-column-advanced tr:hover {
+    background: #0e0e0e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0e0e0e, #595959); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0e0e0e, #595959); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0e0e0e, #595959); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0e0e0e, #595959); /* Standard syntax */
+}
+
+.event-number-advanced span {
+    margin-left: 6px;
+    border-radius: 7px;
+    background: red;
+    width: 11px;
+    padding: 0px 5px;
+}
+
+.event-number-advanced {
+    width: 10%;
+}
+
+.event-type {
+    width: 18px;
+    height: 16px;
+    background: url(../images/fields/icons/ok.svg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+}
+
+.event-field {
+    width: 22px;
+    height: 15px;
+    background: url(../images/fields/icons/field.svg);
+    background-repeat: no-repeat;
+}
+.event-eye {
+    width: 17px;
+    height: 16px;
+    background: url(../images/fields/icons/eye.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.event-x2 {
+    width: 16px;
+    height: 10px;
+    background: url(../images/fields/icons/x2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.event-info {
+    width: 15px;
+    margin-top: 3px;
+    height: 18px;
+    background: url(../images/fields/icons/info.svg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+}
+
+
+.event-arrow {
+    width: 22px;
+    height: 15px;
+    background: url(../images/fields/icons/arrow.svg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+}
+
+.events {
+    height: 589px;
+    /*height: calc(100% - 18px);;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0px !important;
+    will-change: transform;
+}
+
+.x2 {
+    width: 2%;
+}
+
+.event-type-field {
+    /*width: 6%;*/
+}
+
+.field-positions {
+    padding: 1px;
+    position: relative;
+}
+
+.field-positions .field-row {
+    width: 100%;
+}
+
+.field-row_1 ,.field-row_3 {
+    height: 30px;
+}
+
+.field-row_2 {
+    height: 77px;
+}
+.pos-1,.pos-4{
+    width: 31px;
+}
+.pos-2, .pos-3{
+    width: 72px;
+}
+.part-pos-1,.part-pos-3{
+    width: 40px;
+}
+.part-pos-2{
+    width: 105px;
+}
+
+.field-positions .field-row .field-position, .additional-field-position {
+    float: left;
+    height: 100%;
+    cursor: pointer;
+}
+
+.field-positions .field-row .field-position:hover, .field-part-position:hover, .additional-field-position:hover {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.position-active, .part-positions-active {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.field-part-row {
+    position: relative;
+    width: 100%;
+}
+
+.field-part-positions {
+    padding: 1px;
+}
+
+.field-part-position {
+    float: left;
+    height: 139px;
+    cursor: pointer;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove white !important;
+    padding: 0 1em 1em !important;
+    margin: 0 0 0 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+}
+
+legend.scheduler-border {
+    color: white;
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 5px;
+    border-top: none;
+    border-bottom: none;
+
+
+}
+
+.form-title {
+    color: white;
+    display: block;
+}
+
+.additional-actions-list, .additional-player select {
+    width: 100%;
+}
+
+.additional-player, .form-title, .additional-result {
+    line-height: 25px;
+}
+
+.additional-result {
+    float: right;
+}
+
+.additional-action-hide {
+    display: none;
+}
+.general-buttons .btn-default{
+    font-size: 11px;
+}
+.event-icon-hide{
+    display: none;
+}
+.block-funk{
+    margin-top: 10px;
+}
+form > button.logout{
+    width: 30px;
+}
+.video-js{
+    width: 660px!important;
+    height: 365px!important;
+}
+.e-action-name{
+    text-align: center;
+}
+.goal-info-event{
+    display: none;
+    z-index: 9;
+    position: absolute;
+    float: left;
+    background-image: url(../images/fields/goal.jpg);
+    height: 200px;
+    width: 218px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+#event-video-f video{
+    height: auto;!important;
+}
+.go-back{
+    position: absolute;
+    color: #7bdb39;
+    font-size: 25px;
+    top: 11px;
+    left: 1px;
+}

@@ -1,0 +1,16 @@
+AddDefaultCharset utf-8
+php_value date.timezone Europe/Moscow
+
+# Запретить листинг директорий
+Options -Indexes
+
+
+RewriteEngine On
+RewriteBase /
+#YiiSettings
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.php [L]
+#php_value upload_max_filesize 2500
+#php_value post_max_size 2500
+#php_value max_file_uploads 1000

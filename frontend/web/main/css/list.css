@@ -1,0 +1,159 @@
+.body-c {
+    height: 100% !important;
+}
+
+.heder-t a {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.heder-t div {
+    padding: 0px !important;
+}
+
+.videos-list .list {
+    color: #d4d4d4;
+}
+
+.videos-list {
+    margin-top: 22px;
+}
+
+.search-block {
+    border-top: 4px solid #989898;
+    border-right: 4px solid #989898;
+    border-left: 4px solid #989898;
+}
+
+.list {
+    border: 4px solid #989898;
+    height: 700px;
+    overflow-y: auto;
+    will-change: transform;
+}
+
+.search {
+    color: black;
+    float: right;
+    margin-top: 6px;
+}
+
+.search-block {
+    height: 46px;
+}
+
+.match-id {
+    width: 10%;
+}
+
+.match-name {
+    width: 70%;
+}
+
+.match-events-count {
+    width: 10%;
+}
+
+.match-data {
+    width: 16%;
+}
+
+.event-column tr {
+    cursor: pointer;
+    color: #d4d4d4 !important;
+}
+
+.list-icon .glyphicon {
+    width: 20px;
+}
+
+.videos-list .title-n span {
+    font-size: 17px;
+    color: white;
+}
+
+.first-row {
+    border-bottom: 3px solid #989898;
+}
+
+.event-column tr th.match-name {
+    text-align: left;
+}
+
+.cut-v, .upload-v {
+    float: right;
+    margin-top: 5px;
+}
+
+.count-v {
+    margin-top: 46px;
+    font-size: 21px;
+    color: #FFF;
+    text-align: center;
+}
+.done, .all-count{
+    color: #FF9800;
+}
+.img-loader {
+    display: none;
+}
+
+.error {
+    float: right;
+    margin-top: 6px;
+    font-size: 20px;
+    color: red;
+
+}
+
+.title-n {
+    margin-top: 9px;
+}
+
+.label, .dataTables_wrapper, .dataTables_info, .dataTables_length label {
+    color: white !important;
+}
+
+#DataTables_Table_0_previous, #DataTables_Table_0_next {
+    color: white !important;
+}
+
+#DataTables_Table_0_paginate .current {
+    color: black !important;
+}
+
+#DataTables_Table_0_wrapper a, #DataTables_Table_0_wrapper span {
+    color: white !important;
+}
+
+#DataTables_Table_0_wrapper .glyphicon-open:hover {
+    color: #00aa00 !important;
+}
+
+#DataTables_Table_0_wrapper .glyphicon-cloud-upload:hover {
+    color: #00aa00 !important;
+}
+
+#DataTables_Table_0_wrapper .glyphicon-scissors:hover {
+    color: #00aa00 !important;
+}
+
+#DataTables_Table_0_filter label {
+    color: #96989a;;
+}
+
+#upload-link {
+    float: right;
+    color: #7bdb39;
+    margin-top: 41px;
+}
+#cut-link{
+    float: right;
+    color: #7bdb39;
+    margin-top: 41px;
+}
+.event-row th:first-child{
+    width: 50px;
+    text-align: center;
+}

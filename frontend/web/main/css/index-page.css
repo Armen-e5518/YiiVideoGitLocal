@@ -1,0 +1,1138 @@
+body {
+    background-attachment: fixed;
+    background-image: url("../images/backgraunt-index.jpg");
+    background-repeat: no-repeat;
+    background-size: initial;
+    /*background-position: center;*/
+}
+
+.body-c {
+    /*background: rgba(0, 0, 0, 0.71);*/
+}
+
+input[type="button"], button {
+    outline: none !important;
+    border: none !important;
+}
+
+button:active {
+    outline: none !important;
+    border: none !important;
+}
+
+input[type="button"]::-moz-focus-inner {
+    border: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    margin-top: 22px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.field {
+    z-index: 9;
+    position: relative;
+    float: left;
+    background-image: url("../images/fields/field.jpg");
+    height: 339px;
+    width: 507px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+
+.events-list {
+    margin-left: 5px;
+    /*background: rgba(0, 0, 0, 0.48);*/
+    height: 576px;
+    overflow-y: auto;
+    will-change: transform;
+}
+
+.content, .container {
+    /*background: rgba(0, 0, 0, 0.71);*/
+
+}
+
+.heder-t {
+    height: 92px;
+}
+
+.heder-t a {
+    float: left;
+    margin-top: 18px;
+}
+
+.event button {
+    width: 111px;
+    font-size: 13px;
+    height: 47px;
+    margin-top: 5px;
+    white-space: normal;
+}
+
+.field .field-item {
+    position: relative;
+    /*border: 1px solid #b1b1b1;*/
+    width: 12%;
+    height: 98%;
+    float: left;
+    z-index: 9999;
+}
+
+.field .field-line {
+    height: 18%;
+    padding-left: 28px !important;
+    padding-right: 9px !important;
+}
+
+.field .field-first {
+    margin-top: 13px;
+}
+
+.field .player-number {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.field .player-number span {
+    vertical-align: text-top;
+}
+
+.field .player-name {
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    width: 97%;
+    bottom: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.player-name span {
+    white-space: nowrap;
+}
+
+button.active {
+    border: 3px solid #f39300 !important;
+}
+
+div.active {
+    border: 3px solid #f39300 !important;
+    position: absolute;
+}
+
+.field .player {
+    width: 96%;
+    height: 96%;
+    background-color: rgba(104, 195, 204, 0.55);
+    z-index: 999;
+}
+
+.player {
+    cursor: pointer;
+}
+
+.player:hover {
+    background: #1f4e04 !important;;
+}
+
+.event-column tr {
+    cursor: pointer;
+    background-image: url("table-backgraund/beck.png");
+
+}
+
+.event-column tr:hover {
+    background-image: url("table-backgraund/bac-hover.png")
+}
+
+.event-column tr.end-m {
+    background-image: url("table-backgraund/end.png") !important;;
+}
+
+.event-column tr.end-m:hover {
+    background-image: url("table-backgraund/end-hover.png") !important;
+}
+
+.event-column tr th {
+    text-align: center;
+}
+
+.event-column .event-number {
+    width: 11%;
+    position: relative;
+}
+
+.event-column .event-number span {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    left: 43px;
+    position: absolute
+}
+
+.event-row {
+    height: 32px !important;
+    position: relative;
+}
+
+.events-list .event-row {
+    height: auto;
+    position: relative;
+}
+
+.new-event, .event-active {
+    background: #275727 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#275727, #54b954) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#275727, #54b954) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#275727, #54b954) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#275727, #54b954) !important; /* Standard syntax */
+}
+
+.new-event:hover {
+    background: #275727 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#275727, #54b954) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#275727, #54b954) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#275727, #54b954) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#275727, #54b954) !important; /* Standard syntax */
+}
+
+.field-item div.empty {
+    width: 100%;
+    height: 100%;
+}
+
+.ui-state-hover {
+    background: rgba(84, 160, 254, 0.49);
+
+}
+
+.ui-state-active {
+    background: rgb(121, 255, 0) !important;
+    border: 1px red;
+    /*background: red!important;*/
+}
+
+.time div {
+    padding: 0px;
+}
+
+.time-played span {
+    font-size: 10px;
+    color: white;
+}
+
+.time-played {
+    padding-left: 10px !important;;
+}
+
+.part {
+    position: absolute;
+    border-radius: 3px;
+    top: 4px;
+    /* padding: 0px; */
+    width: 18px;
+    height: 19px;
+    background: #f39200;
+    color: black;
+    font-weight: 600;
+    left: 33px;
+}
+
+.map-marker-l {
+    border-radius: 3px;
+    top: 4px;
+    width: 21px;
+    height: 19px;
+    background: #8a6229;
+    color: #10bd26;
+    position: absolute;
+    left: -19px;
+}
+
+.map-marker-l:hover {
+    color: #fe4b1e;
+}
+
+.map-marker-l span {
+    right: -1px;
+}
+
+.glyphicon-star {
+    font-size: 17px;
+    color: rgba(181, 150, 55, 0.95);
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+
+.glyphicon-remove-sign {
+    color: #ff7f7f;
+}
+
+.event-column {
+    width: 100%
+}
+
+.event-column th {
+    font-weight: 100;
+}
+
+.replacements {
+    display: none;
+    position: relative;
+    border-top: 2px solid;
+    border-color: #50a274;
+    width: 160px;
+    height: 295px;
+    float: left;
+    margin-left: 15px;
+}
+
+.replacements-info .title-1 {
+    cursor: pointer;
+    position: absolute;
+    top: -42px;
+    left: 20px;
+}
+
+.replacements-info .title-2 {
+    cursor: pointer;
+    position: absolute;
+    top: -42px;
+    right: 36px;
+}
+
+.command-1 {
+    overflow-y: auto;
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+    height: 278px;
+    /*border: 1px solid;*/
+}
+
+.command-2 {
+    display: none;
+    overflow-y: auto;
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+    height: 278px;
+    /*border: 1px solid;*/
+}
+
+.replacements-info .active {
+    color: black;
+    font-weight: bold;
+}
+
+.rel-player {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.replacements-col .player {
+    position: relative;
+}
+
+.replacements-col .player .player-name {
+    font-size: 10px;
+    font-weight: 100;
+    position: absolute;
+    left: 37px;
+    top: 8px;
+    max-width: 80px;
+    overflow: hidden;
+}
+
+.replacements-col .player {
+    width: 141px;
+    /*background: #2d7604;*/
+    background: #138c13; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#138c13, #64da22); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#138c13, #64da22); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#138c13, #64da22); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#138c13, #64da22); /* Standard syntax */
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    color: white;
+    margin: 2px;
+}
+
+.substitutions-active .player {
+    width: 141px;
+    background: linear-gradient(#136868, #1cb7b7); /* Standard syntax */
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    color: white;
+    margin: 2px;
+}
+
+.replacements-item-add {
+    margin: 2px;
+    width: 137px;
+    height: 27px;
+    border: 1px dashed;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.replacements-item-add .empty {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.replacements-item .player {
+    height: 27px;
+}
+
+.img-logo-left {
+
+    z-index: 10000;
+    left: 0px;
+    position: absolute;
+}
+
+.img-logo-left img, .img-logo-right img {
+    cursor: help;
+    width: 26px;
+    z-index: 999;
+}
+
+.img-logo-right {
+    z-index: 10000;
+    position: absolute;
+    right: 0px;
+}
+
+.event-name {
+
+    max-width: 113px;
+    overflow: hidden;
+}
+
+.event-row .enable {
+    color: rgb(255, 192, 0) !important;
+}
+
+.star:hover {
+    color: rgb(255, 192, 0) !important;
+}
+
+.replacements-col .used {
+    background: #413516; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#413516, #ae8f3a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#413516, #ae8f3a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#413516, #ae8f3a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a97f13, #ffbb01); /* Standard syntax */
+}
+
+.replacements-col .used:hover {
+    background: #171108; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#171108, #7f6328); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#171108, #7f6328); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#171108, #7f6328); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#171108, #7f6328) !important; /* Standard syntax */
+}
+
+.title-1 img, .title-2 img {
+    width: 32px;
+}
+
+.title-1, .title-2 {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title-1:hover {
+    background: #50a274;
+}
+
+.title-2:hover {
+    background: #50a274;
+}
+
+.replacements-info.active, .replacements-info .active {
+    background: #50a274;
+}
+
+.heder-t img, .heder-t span {
+    display: inline-block;
+}
+
+.event {
+    height: 293px;
+    margin-top: 10px;
+}
+
+.drag-here {
+    position: absolute;
+    top: 4px;
+    left: 45px;
+    color: white;
+}
+
+.time-clock {
+    color: red;
+    font-size: 30px;
+}
+
+.time-played button {
+    float: right;
+    margin-top: 10px;
+}
+
+.time-func button {
+    float: left;
+    margin-top: 10px;
+    position: absolute;
+    left: -12px;
+
+}
+
+.menage-block {
+    margin-top: 38px;
+}
+
+.unknow-player .field-item {
+    /*color: black;*/
+    text-align: center;
+    width: 117px;
+    border: 1px solid #504242;
+    float: left;
+    background-color: rgba(104, 195, 204, 0.55);
+}
+
+.unknow-player .player-left {
+    float: left;
+    width: 117px;
+    /*height: 60px;*/
+}
+
+.unknow-player .player-right {
+    float: right;
+    width: 117px;
+    /*height: 60px;*/
+}
+
+.unknow-player .player-number {
+    width: 115px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.unknow-player {
+    display: none;
+    position: absolute;
+    left: -121px;
+    bottom: 9px;
+    width: 749px;
+}
+
+.unknow-player .active {
+    position: relative !important;
+}
+
+.player-list option, .additional-player-list option {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+#event-id .inactive {
+    background-color: #808686 !important;
+    cursor: auto;
+}
+
+button[role="R"] {
+    background-color: #4f9ad6 !important;
+}
+
+button[role="R"]:active {
+    background-color: #70a270 !important;
+}
+
+button[role="E"] {
+    background-color: #a29d30 !important;
+}
+
+button[role="E"]:active {
+    background-color: #a29d30 !important;
+}
+
+/*event-type="event"*/
+button[event-type="event"]:active {
+    background-color: #a2645e !important;
+}
+
+button[event-type="event"] {
+    background-color: #a2645e !important;
+    padding: inherit !important;
+}
+
+button[data-id="35"] {
+    padding: inherit !important;
+}
+
+.end-match {
+    margin-top: 11px;
+}
+
+.advanced-link a {
+    color: #a2645e !important;
+}
+
+.layer {
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 98%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.f-icns {
+    position: relative;
+    width: 25%;
+}
+
+.f-cons-start {
+    position: absolute;
+    right: 14px;
+    width: 66px;
+    top: 3px;
+}
+
+.f-cons-save {
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    width: 38px;
+    top: 4px;
+}
+
+.video-block {
+    height: 100%;
+}
+
+.video-block, .event-block {
+    padding: 0px !important;
+}
+
+.my-logo {
+    /*position: absolute;*/
+}
+
+.team-anem, .event-player-name {
+    display: block;
+}
+
+.team-anem {
+    font-size: 12px;
+    color: #f39200;
+}
+
+.glyphicon-floppy-disk {
+    position: absolute;
+    font-size: 17px;
+    top: 5px;
+    right: 4px;
+}
+
+.glyphicon-floppy-disk:hover {
+    color: blue;
+}
+
+.delete {
+    font-size: 20px;
+    position: absolute;
+    left: 14px;
+    top: 2px;
+    color: #8e2121;
+}
+
+.delete:hover {
+    color: #f39200;
+}
+
+.glyphicon-map-marker {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+
+.glyphicon-map-marker:hover {
+    color: #f39200;
+}
+
+.event-number en, .event-time, .event-player-d, .event-name {
+    font-size: 11px;
+}
+
+/*::-webkit-scrollbar {*/
+/*width: 12px;*/
+/*}*/
+
+/*::-webkit-scrollbar-track {*/
+/*-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.78);*/
+/*border-radius: 50px;*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb {*/
+/*border-radius: 55px;*/
+/*-webkit-box-shadow: inset 0 0 6px rgba(132, 219, 25, 0.78);*/
+/*}*/
+
+.cancel {
+    position: absolute;
+    right: 16px;
+    bottom: 33px;
+}
+
+.cancel button {
+    width: 111px;
+    height: 47px;
+}
+
+.time-below {
+    margin-left: 20px;
+}
+
+.time {
+    margin-top: -35px;
+}
+
+.p-popup {
+    display: none;
+    width: 54px;
+    height: 46px;
+    position: absolute;
+    top: -45px;
+    text-align: center;
+    background: #000;
+    z-index: 99999;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.p-popup input {
+    width: 80%;
+    margin-top: 2px;
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.p-popup span:hover {
+    color: #00aa00;
+}
+
+.field .player .change {
+    background-color: #4f9ad6;
+    z-index: 9999;
+    cursor: auto;
+}
+
+.replacements .player .change span {
+    background-color: #4f9ad6;;
+    width: 17px;
+    position: absolute;
+    height: 19px;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 999;
+}
+
+.replacements .p-popup {
+    top: -18px;
+    right: 44px;
+}
+
+.popup-m, .popup-info, .popup-colors, .popup-number, .popup-delete, .popup-line-up, .popup-enregistrer {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.43);
+    z-index: 9999;
+}
+
+.popup-video {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(250, 250, 250, 0.81);
+    z-index: 9999;
+}
+
+.pop-video {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -400px;
+    z-index: 99999;
+    width: 800px;
+}
+
+.hide-video {
+    position: absolute;
+    right: -28px;
+    top: -13px;
+    color: red;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.form-m {
+    width: 300px;
+    height: 153px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 25%;
+    border: 2px solid #fcfcfc;
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.87);
+}
+
+.form-m .content-pop {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.form-m .content-pop button {
+    width: 100px;
+}
+
+.content-pop button.btn-success {
+    position: absolute;
+    right: 42px;
+    bottom: 21px;
+}
+
+.content-pop button.btn-danger {
+    position: absolute;
+    bottom: 21px;
+    left: 42px;
+}
+
+.content-pop p {
+    font-size: 19px;
+    top: 10px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+button[d-type='save'], button[type='show'], button[d-type='show'] {
+    background: rgb(162, 100, 94);
+}
+
+.event-row .event-number en {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.event-row .event-number span {
+    position: absolute;
+    left: 42px;
+    top: 6px;
+}
+
+.video-js {
+    width: 100% !important;
+    height: 577px;
+!important;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.heder-t a {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.heder-t div {
+    /*padding: 0px !important;*/
+}
+
+.logo-mycoach {
+    /*position: absolute;*/
+    /*left: 18px;*/
+}
+
+.title-data {
+    display: block !important;
+    text-align: center;
+    color: #ff8e09;
+    font-size: 20px;
+}
+
+.m-line {
+    font-size: 20px;
+    color: #ff8e09;
+}
+
+.container-fluid {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+.team-info {
+    float: left;
+}
+
+.replacements .player-number {
+    float: left;
+}
+
+.selections {
+    margin-bottom: 5px;
+}
+
+.goal-info {
+    display: none;
+    z-index: 9;
+    position: absolute;
+    float: left;
+    background-image: url(../images/fields/goal.jpg);
+    height: 200px;
+    width: 218px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+    right: -46px;
+    top: 21px;
+}
+
+.goal {
+    width: 100%;
+    height: 100%;
+}
+
+.gpos-1 {
+    height: 28px;
+}
+
+.gpos-2 {
+    width: 28px;
+    float: left;
+    height: 108px;
+}
+
+.g-field {
+    float: left;
+    width: 162px;
+    height: 117px;
+}
+
+.g-field .g-box {
+    width: 54px;
+    height: 100%;
+    float: left;
+}
+
+.g-field .goal-row {
+    width: 171px;
+    height: 54px;
+}
+
+.gpos-3 {
+    width: 28px;
+    float: left;
+    height: 108px;
+}
+
+.position-active {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.goal:hover .g-box {
+    cursor: pointer;
+    border: 1px solid #c1c1c1;
+}
+
+.g-box:hover {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.mCSB_dragger_bar {
+    width: 3px;
+}
+
+.replacements .substitutions {
+    display: block;
+    position: absolute;
+    right: 5px;
+    height: 21px;
+}
+
+.field .substitutions {
+    display: none;
+}
+
+.dragdrop2, .dragdrop1 {
+    z-index: 9999999;
+}
+
+.player-events {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgba(65, 67, 60, 0.9);
+    display: none;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 24%;
+    z-index: 999;
+}
+
+.open-pop {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #9c8787;
+    position: absolute;
+    right: 0;
+    top: 58%;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.open-pop span {
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.open-pop:hover span {
+    margin-top: 2px;
+    font-size: 30px;
+    color: #f39200;
+}
+
+.open-pop:hover {
+    top: 57%;
+}
+
+.pl-events {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*border-bottom: 3px solid #a8a5a5;*/
+    overflow-y: auto;
+}
+
+.pl-event {
+    position: relative;
+    width: 98%;
+    height: 30px;
+    /*border: 1px solid yellow;;*/
+    background: linear-gradient(#138c13, #64da22);
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    color: white;
+    margin: 2px;
+}
+
+.pl-event span {
+    float: left;
+}
+
+.pl-event:hover {
+    background: #1f4e04 !important;
+}
+
+.but {
+    margin-top: 6px;
+}
+
+.but input {
+    color: black;
+}
+
+.delete-ev {
+    font-size: 20px;
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    color: #8e2121;
+}
+
+.delete-ev:hover {
+    color: #f39200;
+}
+
+.pl-event .player-name {
+    float: left;
+}
+
+.pl-event .player-name, .sub-player-name {
+    width: 90px;
+    overflow: hidden;
+    padding: 1px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.e-cancel {
+    background: rgb(162, 100, 94);
+}
+
+#colorSelectorLeft div, #colorSelectorRight div {
+    cursor: crosshair;
+}
+
+.popup-colors button, .popup-number button, .popup-line-up button, .popup-enregistrer button {
+    right: 100px !important;
+}
+
+.remove-substitutions {
+    font-size: 17px;
+    color: red;
+    position: absolute;
+    left: 63px;
+    top: -19px;
+}
+.end-match{
+    position: absolute;
+    width: 99%;
+    height: 106%;
+    background: rgba(0, 0, 0, 0.26);
+    z-index: 999;
+    top: -20px;
+}
+.container-fluid{
+    position: relative;
+}

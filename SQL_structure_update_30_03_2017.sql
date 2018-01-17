@@ -1,0 +1,2 @@
+ALTER TABLE `vid_players` CHANGE `player_name` `last_name` VARCHAR(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;
+ALTER TABLE `vid_players` ADD `first_name` VARCHAR(37) NULL AFTER `id`;
